@@ -3,6 +3,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.darkmode--activated,
 .darkmode--activated div {
   color: #000;
 }
@@ -88,8 +89,7 @@ button:nth-child(20) {
 
 @media only screen and (max-width: 465px) {
 
-  #calculator {
-    top: 3rem;
+  #calculator{
+    top: 4rem;
   }
-
 }
